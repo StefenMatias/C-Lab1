@@ -20,7 +20,7 @@ namespace Multiplying
                 y = Convert.ToInt32(Console.ReadLine());
             Console.Write("Please input a value for z:");
                 z= Convert.ToInt32(Console.ReadLine());
-                p = x * y * z;
+                product = x * y * z;
             Console.WriteLine("The product of x,y and z is " + product);
         }
     }
